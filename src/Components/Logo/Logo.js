@@ -1,4 +1,4 @@
-import "./CardWidgets.css"
+import "./Logo.css"
 
 function Logo() {
     return (

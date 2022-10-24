@@ -15,13 +15,26 @@
 }
 
 .categoria {
-    color: rgb(27, 27, 151);
+    color: #1b1b97;
     margin-top: 70px;
     font-size: 17px;
     font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
-.categoria:hover {
-    cursor: pointer;
-    border-bottom: 2px solid #3e3e3f;
+.categoria::after {
+    display: block;
+    content:"";
+    margin: auto;
+    width: 0;
+    height: 3px;
+    background-color: #f59f00;
+    transition: width 0.2s;
+}
+
+
+
+.categoria:hover::after {
+    width: 100%;
 }

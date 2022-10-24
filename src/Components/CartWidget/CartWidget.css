@@ -1,0 +1,11 @@
+.iconCart {
+    color: #1b1b97;
+    font-size: 23px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.iconCart:hover{
+    transition:  0.2s;
+    color: #f59f00;
+}
