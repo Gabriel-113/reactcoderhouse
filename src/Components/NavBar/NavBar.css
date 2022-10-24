@@ -1,0 +1,27 @@
+.barraNavegacion {
+    background-color: #3e3e3f27;
+    height: 100px;
+    border-bottom: rgba(59, 59, 59, 0.651) 2px solid;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.categoria {
+    color: rgb(27, 27, 151);
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.categoria:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #3e3e3f;
+}
