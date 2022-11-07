@@ -2,7 +2,7 @@ import "./ItemDetailContainer.css";
 import { useState, useEffect } from "react";
 import { GetItemFromBE } from "../../MockBE/mockBE";
 import { useParams } from "react-router-dom";
-import CounterProducts from "../CounterProducts/CounterProducts";
+import ItemCount from "../ItemCount/ItemCount";
 
 function ItemDetailContainer() {
 
@@ -27,8 +27,8 @@ function ItemDetailContainer() {
                 <p>Año publicación: {product.año}</p>
                 <p>Cantidad de páginas : {product.paginas}</p>
                 <p>Idioma: {product.idioma}</p>
-                <h4 className="priceTag">$ {product.precio}</h4>
-                <CounterProducts />
+                <h4>$ {product.precio}</h4>
+                <ItemCount />
             </div>
         </div>
     )

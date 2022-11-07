@@ -1,10 +1,10 @@
-import "./CounterProducts.css";
+import "./ItemCount.css";
 import ButtonDetail from "../ButtonDetail/ButtonDetail";
 import { useState } from "react";
-import DisplayFlex from "../DisplayFlex/DisplayFlex";
 
 
-function CounterProducts() {
+
+function ItemCount() {
     const [amount, setAmount] = useState(1);
 
     function clicks(e) {
@@ -31,4 +31,4 @@ function CounterProducts() {
 }
 
 
-export default CounterProducts;
+export default ItemCount;
