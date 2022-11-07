@@ -1,7 +1,7 @@
 .barraNavegacion {
-    background-color: #3e3e3f27;
+    background: #790909;
+    background: linear-gradient(0deg, #790909 33%, #000000 100%);
     height: 100px;
-    border-bottom: rgba(59, 59, 59, 0.651) 2px solid;
     box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
     -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.65);
@@ -15,25 +15,24 @@
 }
 
 .categoria {
-    color: #1b1b97;
+    color: #ffffff;
     margin-top: 70px;
     font-size: 17px;
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .categoria::after {
     display: block;
-    content:"";
+    content: "";
     margin: auto;
     width: 0;
     height: 3px;
-    background-color: #f59f00;
+    background-color: #ffffff;
     transition: width 0.2s;
 }
-
-
 
 .categoria:hover::after {
     width: 100%;

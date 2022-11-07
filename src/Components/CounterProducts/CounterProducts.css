@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex p {
+    height: 2rem;
+    width: 7rem;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    color: #790909;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.Buttons {
+    height: 2rem;
+    width: 2rem;
+    font-size: 25px;
+    background-color: #790909;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.Buttons:active {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px 0px rgba(121, 9, 9, 1) inset;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(121, 9, 9, 1) inset;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(121, 9, 9, 1) inset;
+    background-color: #ffffff;
+    color: #790909;
+}
