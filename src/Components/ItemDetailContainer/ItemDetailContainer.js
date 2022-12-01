@@ -4,6 +4,7 @@ import { GetItemFromBE } from "../../MockBE/mockBE";
 import { useParams } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
 
+
 function ItemDetailContainer() {
 
     const [product, setProduct] = useState([]);

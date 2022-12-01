@@ -25,7 +25,6 @@ function ItemCount() {
             <ButtonDetail detail="Agregar al carrito" />
         </div>
 
-
     )
 
 }
